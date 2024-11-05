@@ -1,0 +1,102 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ddd;
+  }
+  
+  /* Seções principais */
+  main {
+    padding: 2em;
+  }
+  
+  .intro, .catalog, .about, .contact {
+    margin-bottom: 2em;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro h1 {
+    color: #333;
+  }
+  
+  .intro p {
+    color: #555;
+  }
+  
+  .catalog h2, .about h2, .contact h2 {
+    color: #4a90e2;
+    margin-bottom: 1em;
+  }
+  
+  .book-list {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .book {
+    flex: 1;
+    padding: 1em;
+    background-color: #e6f2ff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2em;
+  }
